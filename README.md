@@ -1,6 +1,6 @@
 ## Rawda Elsawy, Machine learning course
 
-# 🫀 Cardiovascular Disease Prediction — Final Data Science Project
+# Cardiovascular Disease Prediction — Final Data Science Project
 
 ## Dataset Proposal
 
@@ -9,12 +9,12 @@
 **Author:** Svetlana Ulianova  
 **Format:** CSV (semicolon-separated)
 
-### Size Criteria ✅
+### Size Criteria 
 
 |Requirement|Value                    |
 |-----------|-------------------------|
-|Rows       |**70,000** (NLT 50,000 ✅)|
-|Columns    |**12** (NLT 10 ✅)        |
+|Rows       |**70,000** (NLT 50,000 )|
+|Columns    |**12** (NLT 10 )        |
 
 ### Columns
 
@@ -34,7 +34,7 @@
 |12|active     |int  |Physical activity: 0/1                                |
 |13|cardio     |int  |**Target** — CVD present: 0/1                         |
 
-### Why This Dataset is NOT Clean ✅
+### Why This Dataset is NOT Clean 
 
 1. **Blood pressure errors** — `ap_hi` contains values like -150, 1000+, and `ap_lo` > `ap_hi` (impossible clinically)
 1. **Height outliers** — values as low as 55 cm and as high as 250 cm for adults
@@ -96,22 +96,22 @@ Open <http://127.0.0.1:5000> in your browser.
 
 |Criterion                            |Status                                                  |
 |-------------------------------------|--------------------------------------------------------|
-|Code runs without errors             |✅                                                       |
-|Uses functions (no repetition)       |✅ `evaluate_model()` function                           |
-|Descriptive comments & variable names|✅                                                       |
-|Research question clearly posed      |✅ 3 questions stated                                    |
-|Data cleaning documented             |✅ Step 2 — outliers, duplicates                         |
-|≥ 6 variables investigated           |✅ 10 features explored                                  |
-|Univariate + bivariate analysis      |✅                                                       |
-|≥ 5 plot types                       |✅ Bar, Histogram, Boxplot, Heatmap, Scatter, Violin, Pie|
-|Feature engineering (new features)   |✅ BMI, age_years, pulse_pressure, hypertension, obese   |
-|Feature selection                    |✅ SelectKBest (Filter Method)                           |
-|≥ 3 algorithms compared              |✅ Logistic Regression, Random Forest, Gradient Boosting |
-|Parameter tuning discussed           |✅ GridSearchCV with explanation                         |
-|≥ 2 evaluation metrics               |✅ Precision, Recall, F1, Accuracy, ROC-AUC              |
-|Validation discussed                 |✅ Train/test split + 5-fold CV                          |
-|Precision ≥ 0.3, Recall ≥ 0.3        |✅ Both ~0.72+                                           |
-|Web app deployment                   |✅ Flask app with live predictions                       |
+|Code runs without errors             |                                                       |
+|Uses functions (no repetition)       | `evaluate_model()` function                           |
+|Descriptive comments & variable names|                                                      |
+|Research question clearly posed      |3 questions stated                                    |
+|Data cleaning documented             |Step 2 — outliers, duplicates                         |
+|≥ 6 variables investigated           |10 features explored                                  |
+|Univariate + bivariate analysis      |                                                       |
+|≥ 5 plot types                       |Bar, Histogram, Boxplot, Heatmap, Scatter, Violin, Pie|
+|Feature engineering (new features)   |BMI, age_years, pulse_pressure, hypertension, obese   |
+|Feature selection                    |SelectKBest (Filter Method)                           |
+|≥ 3 algorithms compared              |Logistic Regression, Random Forest, Gradient Boosting |
+|Parameter tuning discussed           |GridSearchCV with explanation                         |
+|≥ 2 evaluation metrics               |Precision, Recall, F1, Accuracy, ROC-AUC              |
+|Validation discussed                 |Train/test split + 5-fold CV                          |
+|Precision ≥ 0.3, Recall ≥ 0.3        |Both ~0.72+                                           |
+|Web app deployment                   |Flask app with live predictions                       |
 
 -----
 
@@ -125,11 +125,3 @@ The web app features:
 - High/Low risk classification with visual feedback
 
 -----
-
-## GitHub Repository
-
-> **Create your repo:** `git init` → `git add .` → `git commit -m "Final DS Project"` → push to GitHub
-
------
-
-*“Keep it Simple, BUT significant 🧐”*
