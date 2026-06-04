@@ -22,19 +22,19 @@ Rows= 70,000
 Columns= 12
 
 The dataset contains the following columns:
--id : Patient ID
--age : Age in days (requires transformation to years)
--gender : 1 = Female, 2 = Male
--height : Height in cm
--weight : Weight in kg
--ap_hi : Systolic blood pressure
--ap_lo : Diastolic blood pressure
--cholesterol : 1 = Normal, 2 = Above Normal, 3 = Well Above Normal
--gluc : Glucose level: 1 = Normal, 2 = Above Normal, 3 = Well Above Normal
--smoke : Smoker: 0 or 1
--alco : Alcohol intake: 0 or 1
--active : Physical activity: 0 or 1
--cardio : Target variable: 1 = CVD present, 0 = CVD absent
+•id : Patient ID
+•age : Age in years 
+•gender : 1 = Female, 2 = Male
+•height : Height in cm
+•weight : Weight in kg
+•ap_hi : Systolic blood pressure
+•ap_lo : Diastolic blood pressure
+•cholesterol : 1 = Normal, 2 = Above Normal, 3 = Well Above Normal
+•gluc : Glucose level: 1 = Normal, 2 = Above Normal, 3 = Well Above Normal
+•smoke : Smoker: 0 or 1
+•alco : Alcohol intake: 0 or 1
+•active : Physical activity: 0 or 1
+•cardio : Target variable: 1 = CVD present, 0 = CVD absent
 
 Why This Dataset is NOT Clean:
 1-Blood pressure errors : ap_hi contains values like -150 and 1000+ (clinically impossible)
